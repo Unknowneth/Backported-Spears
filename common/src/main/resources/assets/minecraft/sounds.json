@@ -1,0 +1,54 @@
+{
+  "item.spear.attack": {
+    "subtitle": "subtitles.item.spear.attack",
+    "sounds": [
+      "minecraft:spear_attack1",
+      "minecraft:spear_attack2",
+      "minecraft:spear_attack3"
+    ]
+  },
+  "item.spear.hit": {
+    "subtitle": "subtitles.item.spear.hit",
+    "sounds": [
+      "minecraft:spear_hit1",
+      "minecraft:spear_hit2",
+      "minecraft:spear_hit3"
+    ]
+  },
+  "item.spear.use": {
+    "subtitle": "subtitles.item.spear.use",
+    "sounds": [
+      "minecraft:spear_use"
+    ]
+  },
+  "item.spear_wood.attack": {
+    "subtitle": "subtitles.item.spear_wood.attack",
+    "sounds": [
+      "minecraft:spear_wood_attack1",
+      "minecraft:spear_wood_attack2",
+      "minecraft:spear_wood_attack3"
+    ]
+  },
+  "item.spear_wood.hit": {
+    "subtitle": "subtitles.item.spear_wood.hit",
+    "sounds": [
+      "minecraft:spear_wood_hit1",
+      "minecraft:spear_wood_hit2",
+      "minecraft:spear_wood_hit3"
+    ]
+  },
+  "item.spear_wood.use": {
+    "subtitle": "subtitles.item.spear_wood.use",
+    "sounds": [
+      "minecraft:spear_wood_use"
+    ]
+  },
+  "item.spear.lunge": {
+    "subtitle": "subtitles.item.spear.lunge",
+    "sounds": [
+      "minecraft:spear_lunge1",
+      "minecraft:spear_lunge2",
+      "minecraft:spear_lunge3"
+    ]
+  }
+}

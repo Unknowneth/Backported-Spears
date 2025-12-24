@@ -1,0 +1,31 @@
+{
+  "required": false,
+  "package": "com.notunanancyowen.spears.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EnchantmentEntityEffectMixin",
+    "ItemStackMixin",
+    "LivingEntityMixin",
+    "MeleeAttackGoalMixin",
+    "MobEntityMixin",
+    "PiglinEntityMixin",
+    "ZombifiedPiglinEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "BipedEntityModelMixin",
+    "ClientPlayerEntityMixin",
+    "HeldItemFeatureRendererMixin",
+    "HeldItemRendererMixin",
+    "ItemRendererMixin",
+    "MinecraftClientMixin",
+    "ModelPredicateProviderRegistryMixin",
+    "PiglinEntityModelMixin",
+    "ZombieEntityModelMixin"
+  ]
+}

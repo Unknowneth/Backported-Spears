@@ -1,0 +1,20 @@
+{
+  "item.minecraft.copper_spear": "Copper Spear",
+  "item.minecraft.diamond_spear": "Diamond Spear",
+  "item.minecraft.golden_spear": "Golden Spear",
+  "item.minecraft.iron_spear": "Iron Spear",
+  "item.minecraft.netherite_spear": "Netherite Spear",
+  "item.minecraft.stone_spear": "Stone Spear",
+  "item.minecraft.wooden_spear": "Wooden Spear",
+  "subtitles.item.spear_wood.attack": "Spear jabs",
+  "subtitles.item.spear_wood.hit": "Spear hits",
+  "subtitles.item.spear_wood.use": "Charges with Spear",
+  "subtitles.item.spear.attack": "Spear jabs",
+  "subtitles.item.spear.hit": "Spear hits",
+  "subtitles.item.spear.lunge": "Spear lunges",
+  "subtitles.item.spear.use": "Charges with Spear",
+  "enchantment.minecraft.lunge": "Lunge",
+  "enchantment.minecraft.lunge.desc": "Spears will propel you forward when used",
+  "advancements.adventure.spear_many_mobs.description": "Hit five mobs in the same Charge attack using the Spear",
+  "advancements.adventure.spear_many_mobs.title": "Mob Kabob"
+}
