@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "spears"
+version = "${version}"
+displayName = "Backported Spears"
+authors = "N0t_UN_Owen/NotUnaNancyOwen"
+description = '''
+A mod that tries to accurately backport the spears
+'''
+#logoFile = ""
+
+[[dependencies.spears]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.spears]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "spears.mixins.json"

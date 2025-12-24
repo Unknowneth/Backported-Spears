@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "spears",
+  "version": "${version}",
+  "name": "Backported Spears",
+  "description": "A mod that tries to accurately backport the spears",
+  "authors": [
+    "N0t_UN_Owen/NotUnaNancyOwen"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/backported-spears",
+    "sources": "https://github.com/Unknowneth/Backported-Spears"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/spears/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.notunanancyowen.spears.fabric.SpearsFabric"
+    ],
+    "client": [
+      "com.notunanancyowen.spears.fabric.client.SpearsFabricClient"
+    ]
+  },
+  "mixins": [
+    "spears.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
