@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "caverns_and_chasms:item/necromium_spear"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "spears:in_gui": 0
+      },
+      "model": "caverns_and_chasms:item/necromium_spear_in_hand"
+    }
+  ]
+}

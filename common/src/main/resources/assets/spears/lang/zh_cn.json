@@ -1,0 +1,23 @@
+{
+  "item.minecraft.copper_spear": "铜矛",
+  "item.minecraft.diamond_spear": "钻石矛",
+  "item.minecraft.golden_spear": "金矛",
+  "item.minecraft.iron_spear": "铁矛",
+  "item.minecraft.netherite_spear": "下界合金矛",
+  "item.minecraft.stone_spear": "石矛",
+  "item.minecraft.wooden_spear": "木矛",
+  "item.oreganized.electrum_spear": "电金长矛",
+  "item.dragonloot.dragon_spear": "龙矛",
+  "item.ender_dragon_loot.dragon_spear": "龙矛",
+  "subtitles.item.spear_wood.attack": "矛：戳刺",
+  "subtitles.item.spear_wood.hit": "矛：击中",
+  "subtitles.item.spear_wood.use": "持矛冲锋",
+  "subtitles.item.spear.attack": "矛：戳刺",
+  "subtitles.item.spear.hit": "矛：击中",
+  "subtitles.item.spear.lunge": "矛：突进",
+  "subtitles.item.spear.use": "持矛冲锋",
+  "enchantment.minecraft.lunge": "突进",
+  "enchantment.minecraft.lunge.desc": "使用矛进行戳刺攻击时将你向前推进",
+  "advancements.adventure.spear_many_mobs.description": "用矛在一次冲锋攻击内命中五只生物",
+  "advancements.adventure.spear_many_mobs.title": "生物串串香"
+}

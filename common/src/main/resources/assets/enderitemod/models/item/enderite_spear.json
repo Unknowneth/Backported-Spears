@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "enderitemod:item/enderite_spear"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "spears:in_gui": 0
+      },
+      "model": "enderitemod:item/enderite_spear_in_hand"
+    }
+  ]
+}
