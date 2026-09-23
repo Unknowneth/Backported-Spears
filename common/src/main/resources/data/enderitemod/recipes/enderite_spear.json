@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "enderitemod:enderite_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_spear"
+  },
+  "result": {
+    "count": 1,
+    "item": "enderitemod:enderite_spear"
+  },
+  "template": {
+    "item": "enderitemod:enderite_upgrade_smithing_template"
+  }
+}

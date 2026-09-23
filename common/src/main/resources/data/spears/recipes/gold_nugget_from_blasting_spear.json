@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "minecraft:golden_spear"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_nugget"
+  }
+}

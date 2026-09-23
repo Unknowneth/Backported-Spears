@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": [
+    {
+      "item": "caverns_and_chasms:silver_spear"
+    }
+  ],
+  "result": "caverns_and_chasms:silver_nugget"
+}

@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "package": "com.notunanancyowen.spears.mixin",
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "DamageEnchantmentMixin",
+    "EnchantmentHelperMixin",
+    "EntityMixin",
+    "FireAspectEnchantmentMixin",
+    "KnockbackEnchantmentMixin",
+    "LivingEntityMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "client": [
+    "BipedEntityModelMixin",
+    "ClientPlayerEntityMixin",
+    "HeldItemFeatureRendererMixin",
+    "HeldItemRendererMixin",
+    "ItemRendererMixin",
+    "MinecraftClientMixin",
+    "ModelPredicateProviderRegistryMixin"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "oreganized:electrum_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_spear"
+  },
+  "result": {
+    "count": 1,
+    "item": "oreganized:electrum_spear"
+  },
+  "template": {
+    "item": "oreganized:electrum_upgrade_smithing_template"
+  }
+}
