@@ -10,6 +10,7 @@
     "FireAspectEnchantmentMixin",
     "KnockbackEnchantmentMixin",
     "LivingEntityMixin",
+    "LuckEnchantmentMixin",
     "ServerPlayerEntityMixin"
   ],
   "injectors": {
