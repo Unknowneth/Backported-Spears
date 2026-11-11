@@ -9,7 +9,6 @@ import com.notunanancyowen.spears.dataholders.SpearUser;
 import net.minecraft.block.BlockState;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityGroup;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.EntityAttribute;
@@ -135,7 +134,7 @@ public class SpearItem extends ToolItem {
                     boolean bl4 = canKnockback(i, d, f);
                     boolean bl5 = canDamage(i, j, f);
                     if(bl3 || bl4 || bl5) {
-                        float k = (float)e + EnchantmentHelper.getAttackDamage(stack, entity instanceof LivingEntity l ? l.getGroup() : EntityGroup.DEFAULT) + MathHelper.floor(j * chargeDamageMultiplier);
+                        float k = (float)e + MathHelper.floor(j * chargeDamageMultiplier);
                         bl |= s.pierce(user.getActiveHand() == Hand.MAIN_HAND ? EquipmentSlot.MAINHAND : EquipmentSlot.OFFHAND, entity, k, bl5, bl4, bl3);
                     }
                 }
