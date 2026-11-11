@@ -98,7 +98,7 @@ public class SpearItem extends ToolItem {
         super.inventoryTick(stack, world, entity, slot, selected);
     }
     @Override public boolean canMine(BlockState state, World world, BlockPos pos, PlayerEntity miner) {
-        return !miner.isCreative();
+        return false;
     }
     @Override public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         stack.damage(1, attacker, e -> e.sendEquipmentBreakStatus(EquipmentSlot.MAINHAND));
