@@ -102,11 +102,12 @@ public abstract class LivingEntityMixin implements SpearUser {
             ItemStack itemStack = attacker.getEquippedStack(slot);
             DamageSource damageSource = attacker.getDamageSources().playerAttack(player);
             float halfCD = attacker.isUsingItem() ? 1F : player.getAttackCooldownProgress(0.5F);
-            float f = halfCD * (EnchantmentHelper.getAttackDamage(itemStack, target instanceof LivingEntity l ? l.getGroup() : EntityGroup.DEFAULT) + damage);
+            float j = EnchantmentHelper.getAttackDamage(itemStack, target instanceof LivingEntity l ? l.getGroup() : EntityGroup.DEFAULT);
+            float f = halfCD * (j + damage);
             if(!attacker.isUsingItem()) damage *= 0.2F + halfCD * halfCD * 0.8F;
             if(target instanceof ExplosiveProjectileEntity e && e.damage(player.getDamageSources().mobAttack(player), damage)) return true;
             else {
-                float g = dealDamage ? damage + f : 0.0F;
+                float g = dealDamage ? f : 0.0F;
                 float h = 0.0F;
                 if (target instanceof LivingEntity livingEntity) h = livingEntity.getHealth();
                 boolean bl = dealDamage && target.damage(damageSource, g);
@@ -131,7 +132,7 @@ public abstract class LivingEntityMixin implements SpearUser {
                 }
                 if (!bl && !knockback && !bl2) return false;
                 else {
-                    if(EnchantmentHelper.getAttackDamage(itemStack, target instanceof LivingEntity l ? l.getGroup() : EntityGroup.DEFAULT) > 0F) player.addEnchantedHitParticles(target);
+                    if(j > 0F) player.addEnchantedHitParticles(target);
                     player.onAttacking(target);
                     Entity entity = target;
                     if (target instanceof EnderDragonPart) entity = ((EnderDragonPart)target).owner;
